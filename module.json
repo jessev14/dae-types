@@ -1,0 +1,56 @@
+{
+    "id": "dae-types",
+    "title": "DAE Types",
+    "description": ".",
+    "authors": [
+        {
+            "name": "enso",
+            "discord": "enso#0361"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10"
+    },
+    "esmodules": [
+        "./scripts/main.js"
+    ],
+    "styles": [
+        "./styles/style.css"
+    ],
+    "languages": [],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "2.0.0",
+                    "verified": "2.0.0"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "lib-wrapper",
+                "type": "module",
+                "compatibility": {
+                    "minimum": "1",
+                    "verified": "1.12.7.1"
+                }
+            },
+            {
+                "id": "dae",
+                "type": "module",
+                "compatibility": {
+                    "minimum": "10"
+                }
+            }
+        ]
+    },
+    "flags": {},
+    "url": "",
+    "manifest": "",
+    "download": ""
+}
